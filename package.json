@@ -1,0 +1,25 @@
+{
+  "name": "seed-sweeper",
+  "version": "2.0.0",
+  "description": "Multi-chain sweeper using single seed phrase",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "bip32": "^4.0.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "ecpair": "^2.1.0",
+    "tiny-secp256k1": "^2.2.3",
+    "ethers": "^5.7.2",
+    "@ethersproject/hdnode": "^5.7.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
